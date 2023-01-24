@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 720px;    
+    min-height: 750px;
+    height: auto;
+    background-color: #fff;
+    margin-left: 550px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.itemContainer{
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.ServicosRefreshIcon{
+    display: flex;
+    flex-direction: row;
+}
+
+.refreshButton{
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: bold;    
+    font-size: 20px;
+    text-decoration-line: underline;
+    margin-right: 1rem;
+}
+
+.card{
+    margin-top: 1rem;
+    background-color: #fff;
+    height: auto; 
+    width: auto;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    padding-right: 1rem;
+}
+
+.cardTitle{
+    font-weight: bold;    
+    padding: 1rem;
+}
+
+.subTitle{ 
+    padding-left: 1rem;
+}
+
+.titleServicoPrestado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;        
+}
+
+.buttonFinalizarContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;    
+}
+
+.buttonFinalizar:hover{ 
+    background-color: #29B6D1;
+    color: #fff;
+}
+
+.titleAvaliacao{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.textAreaAvaliacao{
+    padding: 1rem;
+    border: 1px solid black;
+    resize: none;
+    min-height: 10rem;
+    border-radius: 8px;
+    
+}

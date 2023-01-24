@@ -1,0 +1,90 @@
+
+.containerButtonRetornarPagina{
+    background-color: #fff;
+    width: 1.8rem;
+    margin: 1rem;    
+}
+
+.buttonRetornarPagina{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.7s;
+}
+
+.buttonRetornarPagina:hover{
+    opacity: 1;
+    transform: scale(1.1)
+}
+
+.container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    border-radius: 20px;
+    margin-left: 420px;
+    height: 800px;
+    max-width: 1200px;
+    background-color: #D3E2E5;
+    
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #4D6F80;
+    margin-bottom: 1.5rem;
+}
+
+.cardContainer{
+    padding: 2rem;
+    background-color: #FFFFFF;
+    height: 280px;
+    width: 85%;
+    border-radius: 20px;
+    margin-bottom: 2rem;    
+}
+
+.cardTitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4.0rem;
+}
+
+.button{
+    background-color: #FFD666;
+    color: #8D734B;
+    border: 1px solid #D3E2E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 125px;
+    height: 50px;
+    font-weight: bold;    
+}
+
+.contratoRealizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+
+.buttonRetornar{
+    margin-top: 2rem;
+    background-color: #FFD666;
+    color: #8D734B;
+    border: 1px solid #D3E2E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 230px;
+    height: 50px;
+    font-weight: bold;
+}
